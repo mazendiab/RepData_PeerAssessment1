@@ -1,3 +1,8 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
 ### Assignment: Course Project 1
 
 ## Loading and preprocessing the data
