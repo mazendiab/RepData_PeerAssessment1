@@ -53,6 +53,8 @@ interval.average <- zoo(average,interval)
 plot(interval.average,type='l', xlab="5-minute interval", ylab="average number of steps across all days ", main = "average number of steps taken across all days per 5-minute interval", col='red')
 
 ```
+
+
 ## The 5-minute interval that contains the maximum number of steps (on average across all the days in the dataset ) is:
 ```{r, echo=TRUE}
 names(which.max(interval.average))
